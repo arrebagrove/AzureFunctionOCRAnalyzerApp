@@ -22,8 +22,8 @@ namespace AnalyzerApp
         [FunctionName("BlobTriggerCSharp")]        
         public static Cupom Run([BlobTrigger("cupom/{name}", Connection = "AzureStorageConnection")]Stream myBlob, string name, TraceWriter log)
         {
-            var client = new VisionServiceClient("abc468301e5e43948d08aa5a7ae96db7",
-                "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/ocr?");
+            var client = new VisionServiceClient("[COGNITIVE SERVICE SUBSCRIPTION KEY GOES HERE]",
+                "[COGNITIVE SERVICE URL GOES HERE]");
 
             OcrResults result = client.RecognizeTextAsync(myBlob).Result;
 
