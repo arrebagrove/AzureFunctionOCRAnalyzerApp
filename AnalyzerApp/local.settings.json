@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=aztechnightsstorage;AccountKey=tF4g3lFg+wEYL2/fHg20YqGyo00/ri4rDtuN+Z2t/QJ7WUCDw58W5hnbbwac4/q5TYqOJCxASzkzF3SZz7E5tg==",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=aztechnightsstorage;AccountKey=tF4g3lFg+wEYL2/fHg20YqGyo00/ri4rDtuN+Z2t/QJ7WUCDw58W5hnbbwac4/q5TYqOJCxASzkzF3SZz7E5tg==",
+    "AzureStorageConnection": "DefaultEndpointsProtocol=https;AccountName=aztechnightsstorage;AccountKey=tF4g3lFg+wEYL2/fHg20YqGyo00/ri4rDtuN+Z2t/QJ7WUCDw58W5hnbbwac4/q5TYqOJCxASzkzF3SZz7E5tg=="
+  }
+}
